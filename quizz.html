@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: rgb(30, 20, 29);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+           color: rgb(151, 204, 236);
+        }
+        h2{
+            color: rgb(151, 204, 236);
+        }
+        h3{
+            color: rgb(151, 204, 236);
+        }
+        button{
+            cursor: pointer;
+            background-color:rgb(36, 35, 35);
+            color: rgb(151, 204, 236);
+            border-radius: 20px;
+            padding: 7px;
+            margin-left: 5px;
+            width: 120px;
+            font-size: 17px;
+        }
+        button:hover{
+            border-color: rgb(151, 204, 236);
+            opacity: 0.8;
+        }
+        .textbox{
+            background-color: rgb(36, 35, 35);
+            border-radius: 20px;
+            color: white;
+            padding: 5px;
+        }
+        .textbox:active{
+            border-color: rgb(151, 204, 236);
+            border-width: 2px;
+        }
+        .textbox:hover{
+            border-color: rgb(151, 204, 236);
+           
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<h1><u>Test your IQ level ! :</u></h1>
+<h2><u>First of all :</u></h2>
+<h3>Enter your age : <input type="textbox" placeholder="Enter your age" class="textbox" id="agetextbox"> <button id="SButton">Submit</button><br><br>
+<label id="agelabel"></label><br>
+<h2><u>Let's begin !</u></h2><br>
+
+<h2><u>First Step :</u></h2>
+<img src="rectangle.png" height="200" width="300">
+<h3>If AB = 5cm , how much is CD ?<br>CD is : <input placeholder="Enter your answer" class="textbox" type="textbox" id="CDTextBox">
+<button id="SubmitButton">Submit</button><br><br>
+<label id="cd"></label><br><br>
+
+<h2><u>Second Step :</u></h2>
+<img src="triangle.png" height="200" width="300">
+<h3>If AB = 6 cm and BC = 8cm , how much is <b>CA ?</b> </h3>
+<h3>CA is : <input placeholder="Enter your answer" class="textbox" type="textbox" id="CATextBox">
+<button id="SubButton">Submit</button><br><br>
+<label id="CA"></label><br><br>
+
+<h2><u>Third Step :</u></h2>
+<img src="triangle2.jpg" height="200" width="300">
+<h3>If A = 100° and B = 40° , what is the angle of C ? </h3>
+<h3>C is : <input placeholder="Enter your answer" class="textbox" type="textbox" id="CTextBox">
+<button id="CButton">Submit</button><br><br>
+<label id="C"></label><br><br>
+
+<h2><u>Fourth Step :</u></h2>
+<h3>Is the triangle ABC an isosceles triangle?</h3>
+<h3>Answer by : Yes <i>or</i> No : 
+<input placeholder="Enter your answer" class="textbox" type="textbox" id="TriangleIsocele"> <button id="TriangleButton">Submit</button><br><br>
+<label id="TriangleLabel"></label>
+
+<h2><u>Fifth Step :</u></h2>
+<img src="airedudisque.jpg" height="200" width="300">
+<h3>If the radius of this disk is 5cm, what is its air (exact answer riquered)?</h3>
+<h3>The air of the disk is : <input placeholder="Enter your answer" class="textbox" type="textbox" id="AirTextBox"> <button id="AirButton">Submit</button><br><br>
+    <label id="AirLabel"></label><br><br>
+
+    <h2><u>Your Result !</u></h2>
+    <h3>Determinate your grade by clicking on this button : <button id="Calc">Click Here!</button>
+<h3><label id="FinalResult"></label></h3>
+<h3><label id="FailedResult"></label></h3>
+
+<script src="index.js"></script>
+
+</body>
+</html>
